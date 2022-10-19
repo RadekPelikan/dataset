@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    gap: 10px;
+    height: 100%;
+}
+
+.box {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    transition: .3s ease transform;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
+
+.red-box {
+    background-color: red;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.blue-box {
+    background-color: blue;
+}
